@@ -4,8 +4,8 @@ use Razorpay\Api\Api;
 
 header('Content-Type: application/json');
 
-$keyId = "rzp_test_eSJNxTqrJwrb8I";
-$keySecret = "nk5iWiHf3bebEidskb999njB";
+$keyId = "";
+$keySecret = "";
 
 $api = new Api($keyId, $keySecret);
 
